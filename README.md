@@ -27,8 +27,8 @@ We used the pre-trained weights provided by [HuggingFace Transformers](https://g
 
 | Model | Link |
 |:-----:|:-----:|
-| BERT-base | [gdrive](https://drive.google.com/drive/folders/1OWHL7Cjhaf2n67PZX4Pt0Be3Gv2VCLo0?usp=sharing) |
-| DistilBERT | [gdrive](https://drive.google.com/drive/folders/1ZyGQL5ynoXs0ffGkENNjHq7eijB-B80l?usp=sharing) |
+数据集地址: https://huggingface.co/datasets/nyu-mll/glue (QQP 是 GLUE 基准测试的一部分)
+预训练模型地址: https://huggingface.co/google-bert/bert-base-uncased
 
 Our framework only accepts the HuggingFace Transformers PyTorch models.
 If you use your own checkpoints, please make sure that each checkpoint directory contains both `config.json` and `pytorch_model.bin`.
