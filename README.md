@@ -13,8 +13,8 @@ This makes our method fully automated and 10x-1000x faster in terms of pruning t
 
 ### Install denpendencies
 
-Tested on Python 3.7.10.
-You need an NVIDIA GPU (with 16+ GB memory) to run our code.
+Tested on Python 3.10.19.
+You need an NVIDIA GPU (with 8+ GB memory) to run our code.
 
 ```bash
 pip3 install -r requirements.txt
